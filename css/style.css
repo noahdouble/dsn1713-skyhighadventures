@@ -1,3 +1,8 @@
+:root {
+--primary-color: #CBA135;
+--secondary-color: #000000;
+--hero-bg: url(../images/kamil-pietrzak-ht1xt4FfmFs-unsplash.jpg);
+}
 
 body {
   background-color: grey;
@@ -6,3 +11,41 @@ body {
 .bg-dark-test{
   background-color:#645556;
 }
+
+.hero {
+background: var(--hero-bg) center/cover no-repeat;
+min-height: 65vh;
+}
+
+.hero-main {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 6rem;
+font-weight: 600;
+}
+
+.hero-text {
+font-family: Helvetica, sans-serif;
+font-size: 1.25rem;
+font-weight: 420;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+}
+.btn-primary:hover {
+  background-color:var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border: none;
+}
+.btn-secondary:hover {
+  background-color: #00147a;
+  border: none;
+}
+
+
+
+
